@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4448A64F21F83A0A00D95DC0 /* Basic UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basic UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4448A64F21F83A0A00D95DC0 /* BasicDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4448A65221F83A0A00D95DC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4448A65421F83A0A00D95DC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4448A65721F83A0A00D95DC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		4448A64621F83A0A00D95DC0 = {
 			isa = PBXGroup;
 			children = (
-				4448A65121F83A0A00D95DC0 /* Basic UI */,
+				4448A65121F83A0A00D95DC0 /* BasicDatePicker */,
 				4448A65021F83A0A00D95DC0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		4448A65021F83A0A00D95DC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4448A64F21F83A0A00D95DC0 /* Basic UI.app */,
+				4448A64F21F83A0A00D95DC0 /* BasicDatePicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4448A65121F83A0A00D95DC0 /* Basic UI */ = {
+		4448A65121F83A0A00D95DC0 /* BasicDatePicker */ = {
 			isa = PBXGroup;
 			children = (
 				4448A65221F83A0A00D95DC0 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				4448A65B21F83A0D00D95DC0 /* LaunchScreen.storyboard */,
 				4448A65E21F83A0D00D95DC0 /* Info.plist */,
 			);
-			path = "Basic UI";
+			path = BasicDatePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4448A64E21F83A0A00D95DC0 /* Basic UI */ = {
+		4448A64E21F83A0A00D95DC0 /* BasicDatePicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4448A66121F83A0D00D95DC0 /* Build configuration list for PBXNativeTarget "Basic UI" */;
+			buildConfigurationList = 4448A66121F83A0D00D95DC0 /* Build configuration list for PBXNativeTarget "BasicDatePicker" */;
 			buildPhases = (
 				4448A64B21F83A0A00D95DC0 /* Sources */,
 				4448A64C21F83A0A00D95DC0 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "Basic UI";
+			name = BasicDatePicker;
 			productName = "Basic UI";
-			productReference = 4448A64F21F83A0A00D95DC0 /* Basic UI.app */;
+			productReference = 4448A64F21F83A0A00D95DC0 /* BasicDatePicker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4448A64A21F83A0A00D95DC0 /* Build configuration list for PBXProject "Basic UI" */;
+			buildConfigurationList = 4448A64A21F83A0A00D95DC0 /* Build configuration list for PBXProject "BasicDatePicker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4448A64E21F83A0A00D95DC0 /* Basic UI */,
+				4448A64E21F83A0A00D95DC0 /* BasicDatePicker */,
 			);
 		};
 /* End PBXProject section */
@@ -284,12 +284,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WQYHWJVQDB;
-				INFOPLIST_FILE = "Basic UI/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BasicDatePicker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.arcadiasoftworks.Basic-UI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arcadiasoftworks.BasicDatePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +302,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WQYHWJVQDB;
-				INFOPLIST_FILE = "Basic UI/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BasicDatePicker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.arcadiasoftworks.Basic-UI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arcadiasoftworks.BasicDatePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4448A64A21F83A0A00D95DC0 /* Build configuration list for PBXProject "Basic UI" */ = {
+		4448A64A21F83A0A00D95DC0 /* Build configuration list for PBXProject "BasicDatePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4448A65F21F83A0D00D95DC0 /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4448A66121F83A0D00D95DC0 /* Build configuration list for PBXNativeTarget "Basic UI" */ = {
+		4448A66121F83A0D00D95DC0 /* Build configuration list for PBXNativeTarget "BasicDatePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4448A66221F83A0D00D95DC0 /* Debug */,
